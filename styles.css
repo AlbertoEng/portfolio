@@ -13,6 +13,9 @@ body{
 
 header {
     padding: 10px 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
     background-color: #030303;
     color: rgb(204, 228, 247);
     border-bottom: 2px solid black;
@@ -73,4 +76,36 @@ li img {
 
 .img-project{
     width: 100%;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid rgba(102, 95, 95, 0.589);
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 0px 0px 3px grey;
+    height: 600px;
+    margin: 50px;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tarjeta h2 {
+    margin: 10px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+footer ul li:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
